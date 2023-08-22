@@ -36,6 +36,7 @@ header {
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    width: 200px; /* Adjust this width as needed */
 }
 
 .instagram-button:hover,
