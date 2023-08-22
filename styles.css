@@ -5,6 +5,20 @@ body {
     padding: 0;
 }
 
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img_bk.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px) brightness(0.5); /* Adjust the values as needed */
+    z-index: -1; /* Place it behind the content */
+}
+
 header {
     background-color: #333;
     color: #fff;
