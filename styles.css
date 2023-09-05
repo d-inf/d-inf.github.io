@@ -58,6 +58,11 @@ header {
 .whatsapp-button:hover {
     background-color: #2980b9;
 }
+.SinoptikInformer {
+    margin-left: auto;
+    margin-right: auto;
+    /* Other styles for the widget container */
+}
 footer {
     background-color: #333;
     color: #fff;
