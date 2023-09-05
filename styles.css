@@ -61,6 +61,7 @@ header {
 .SinoptikInformer {
     margin-left: auto;
     margin-right: auto;
+    bottom: 0;
     /* Other styles for the widget container */
 }
 footer {
